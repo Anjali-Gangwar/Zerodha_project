@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_HOLDINGS = axios.create({
-  baseURL: "http://localhost:3002/api/holdings",
+  baseURL: "https://zerodha-project-ds5v.onrender.com",
   withCredentials: true,
 });
 

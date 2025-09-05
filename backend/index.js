@@ -223,6 +223,10 @@ app.post("/newOrder", async(req, res)=>{
   res.send("Order saved!");
 });
 
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
+});
+
 app.listen(3002, ()=>{
     console.log("Server is starting on port 3002");
     mongoose.connect(uri);
