@@ -11,41 +11,41 @@ function Footer() {
                 </div>
                 <div className='col'>
                     <p>Company</p>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Products</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Products</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Pricing</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Pricing</a>
                     <br></br>
-                    <a href='' className='mt-1 text-muted' style={{textDecoration:'none', display:'block'}}>Referral programme</a>
+                    <a href='/' className='mt-1 text-muted' style={{textDecoration:'none', display:'block'}}>Referral programme</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>About</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>About</a>
                     <br></br> 
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Careers</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Careers</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Zerodha.tech</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Zerodha.tech</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Press & media</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Press & media</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Zerodha cares (CSR)</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Zerodha cares (CSR)</a>
                 </div>
                 <div className='col'>
                     <p>Support</p>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Contact</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Contact</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Support portal</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Support portal</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Z-connect blog</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Z-connect blog</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>List of charges</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>List of charges</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Downloads & resources</a>           
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Downloads & resources</a>           
                 </div>
                 <div className='col'>
                     <p>Account</p>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Open an account</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Open an account</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Fund transfer</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>Fund transfer</a>
                     <br></br>
-                    <a href='' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>60 day challenge</a>
+                    <a href='/' className='mb-1 text-muted' style={{textDecoration:'none', display:'block'}}>60 day challenge</a>
                 </div>
             </div>
             <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
