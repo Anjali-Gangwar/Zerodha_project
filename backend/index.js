@@ -17,7 +17,8 @@ const holdingsRoute = require("./routes/HoldingsRoute");
 const app = express();
 const PORT = process.env.PORT || 3002;
 
-app.use(cors({ origin: ["http://localhost:3000", "http://localhost:3001","https://tradingzerodha.netlify.app"],
+app.use(cors({ origin: ["http://localhost:3000", "http://localhost:3001",
+  "https://zerodha-project-ds5v.onrender.com","https://tradingzerodha.netlify.app"],
   credentials:true}));
 app.use(cookieParser());
 app.use(express.json());

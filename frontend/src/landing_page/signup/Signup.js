@@ -13,7 +13,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await API.post("/api/auth/signup", formData);
+      const res = await API.post("/signup", formData);
       setMessage(res.data.msg);
 
       // signup successful → navigate to login
