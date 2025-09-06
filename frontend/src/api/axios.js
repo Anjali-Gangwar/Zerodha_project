@@ -2,7 +2,9 @@ import axios from "axios";
 
 // Base API setup
 const API = axios.create({
-  baseURL: "https://zerodha-project-ds5v.onrender.com/api/auth", // backend port + auth route
+  baseURL: process.env.NODE_ENV === "production"
+    ? "https://zerodha-project-ds5v.onrender.com/api/auth" // deployed backend
+    : "http://localhost:3002/api/auth", 
   withCredentials: true, // agar cookies/token use ho
 });
 

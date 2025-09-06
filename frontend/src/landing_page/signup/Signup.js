@@ -21,7 +21,7 @@ function Signup() {
     } catch (error) {
       if (error.response) {
       // Backend se aaya error
-      alert(error.response.data.message || "Signup failed. Try again.");
+      alert(error.response.data.msg || "Signup failed. Try again.");
     } else {
       // Server/Network issue
       alert("Network error. Please check your connection.");
