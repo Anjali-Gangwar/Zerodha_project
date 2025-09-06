@@ -13,12 +13,12 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await API.post("/signup", formData);
+      const res = await API.post("/api/auth/signup", formData);
       setMessage(res.data.msg);
 
       // signup successful → navigate to login
       navigate("/login");
-    } catch (err) {
+    } catch (error) {
       if (error.response) {
       // Backend se aaya error
       alert(error.response.data.message || "Signup failed. Try again.");
