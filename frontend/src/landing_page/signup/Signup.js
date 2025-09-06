@@ -19,7 +19,14 @@ function Signup() {
       // signup successful → navigate to login
       navigate("/login");
     } catch (err) {
-      setMessage(err.response?.data?.msg || "Error");
+      if (error.response) {
+      // Backend se aaya error
+      alert(error.response.data.message || "Signup failed. Try again.");
+    } else {
+      // Server/Network issue
+      alert("Network error. Please check your connection.");
+    }
+      // setMessage(err.response?.data?.msg || "Error");
     }
   };
 

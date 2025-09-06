@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import API from "../../api/axios";
-import './Form.css';
+import './Form.css'; 
 
 function Login() {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
   const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
@@ -17,7 +18,8 @@ function Login() {
       setMessage(res.data.msg);
 
       // login successful → navigate to dashboard
-     window.location.href="http://localhost:3000/";
+     window.location.href="http://localhost:3001/";
+     navigate("/dashboard");
     } catch (err) {
       setMessage(err.response?.data?.msg || "Invalid credentials");
     }
